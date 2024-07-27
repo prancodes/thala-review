@@ -1,0 +1,75 @@
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#frame{
+    height: 400px;
+    width: 280px;
+    background-color: rgb(255, 244, 202);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    /* padding: 0px 10px 0px 10px; */
+    margin-top: 30px;
+}
+
+#text{
+    margin: 35px 0px 20px 0px;
+    text-align: center;
+}
+
+#inside_frame{
+    height: 180px;
+    width: auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#myInput{
+    height: 30px;
+    width: 170px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+button{
+    height: 32px;
+    width: 100px;
+    margin-top: 24px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(255, 177, 75);
+    background-color:rgb(255, 78, 14);
+    color: antiquewhite;
+}
+
+#video_frame{
+    height: 280px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px 20px 0px 20px;
+    /* display: none; */
+}
+
+h4{
+    margin: 12px 0px 10px 0px;
+}
+
+#yesVideo{
+    width: 130px;
+    border-radius: 14px;
+}
+
