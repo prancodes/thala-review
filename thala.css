@@ -8,7 +8,7 @@ body{
 
 #frame{
     height: 400px;
-    width: 200px;
+    width: 240px;
     background-color: rgb(255, 244, 202);
     border: 2px solid black;
     display: flex;
