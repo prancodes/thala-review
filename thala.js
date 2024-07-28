@@ -16,7 +16,7 @@ function yesThala(){
     inframe.style.display = "none";
 
     let frame = document.querySelector("#frame");
-    frame.style.padding = "30px"
+    frame.style.padding = "20px 20px 40px 20px"
 
     let videoFrame = document.querySelector("#video_frame");
     videoFrame.style.visibility = "visible"  
