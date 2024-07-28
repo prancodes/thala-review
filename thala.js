@@ -16,11 +16,11 @@ function yesThala(){
     inframe.style.display = "none";
 
     let frame = document.querySelector("#frame");
-    frame.style.padding = "0px 20px 40px 20px"
+    frame.style.padding = "0px 20px 40px 20px";
 
     let videoFrame = document.querySelector("#video_frame");
-    videoFrame.style.visibility = "visible"  
+    videoFrame.style.visibility = "visible";
 
-
+    document.querySelector("#yesVideo").play();
 }
 
