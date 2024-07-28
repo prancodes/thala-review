@@ -57,7 +57,7 @@ button{
 
 #video_frame{
     height: 280px;
-    width: 200px;
+    width: auto;
     background-color: rgb(255, 255, 255);
     border: 1px solid;
     border-radius: 20px;
