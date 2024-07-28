@@ -15,9 +15,11 @@ function yesThala(){
     let inframe = document.querySelector("#inside_frame");
     inframe.style.display = "none";
 
-    
+    let frame = document.querySelector("#frame");
+    frame.style.padding = "30px"
 
-    
+    let videoFrame = document.querySelector("#video_frame");
+    videoFrame.style.visibility = "visible"  
 
 
 }
