@@ -48,7 +48,7 @@ button{
     border-radius: 15px;
     font-size: 15px;
     font-weight: bold;
-    background-color:rgb(255, 177, 75);
+    /* background-color:rgb(255, 177, 75); */
     background-color:rgb(255, 78, 14);
     color: antiquewhite;
 }
@@ -75,4 +75,16 @@ h4{
 
 #noThala{
     border-radius: 14px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+h5{
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(255, 244, 202);
+    margin-bottom: 10px;
 }
