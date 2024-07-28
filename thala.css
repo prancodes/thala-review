@@ -8,13 +8,13 @@ body{
 
 #frame{
     height: 400px;
-    width: 280px;
+    width: 220px;
     background-color: rgb(255, 244, 202);
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    /* padding: 0px 10px 0px 10px; */
+    padding: 0px 30px 0px 30px;
     margin-top: 30px;
 }
 
@@ -24,13 +24,15 @@ body{
 }
 
 #inside_frame{
-    height: 180px;
-    width: auto;
+    height: 160px;
+    width: fit-content;
     background-color: white;
     border-radius: 20px;
     text-align: center;
     margin-top: 20px;
-    display: none;
+    padding: 20px;
+    font-size: 14px;
+    /* display: none; */
 }
 
 #myInput{
@@ -60,8 +62,8 @@ button{
     border-radius: 20px;
     text-align: center;
     margin-top: 15px;
-    padding: 0px 20px 0px 20px;
-    /* display: none; */
+    padding: 20px;
+    visibility: hidden;
 }
 
 h4{
