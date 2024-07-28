@@ -8,7 +8,7 @@ body{
 
 #frame{
     height: 400px;
-    width: 240px;
+    width: 260px;
     background-color: rgb(255, 244, 202);
     border: 2px solid black;
     display: flex;
@@ -56,7 +56,7 @@ button{
 
 #video_frame{
     height: 280px;
-    width: auto;
+    width: 220px;
     background-color: rgb(255, 255, 255);
     border: 1px solid;
     border-radius: 20px;
