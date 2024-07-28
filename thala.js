@@ -7,7 +7,7 @@ btn.addEventListener("click", ()=>{
         yesThala();
     }
     else{
-        console.log("no thala");
+        noThala();
     }
 })
 
@@ -18,9 +18,23 @@ function yesThala(){
     let frame = document.querySelector("#frame");
     frame.style.padding = "0px 20px 40px 20px";
 
-    let videoFrame = document.querySelector("#video_frame");
-    videoFrame.style.visibility = "visible";
+    let videoFrame1 = document.querySelector("#video_frame1");
+    videoFrame1.style.visibility = "visible";
 
-    document.querySelector("#yesVideo").play();
+    document.querySelector("#yesThala").play();
+}
+
+function noThala(){
+    let inframe = document.querySelector("#inside_frame");
+    inframe.style.display = "none";
+
+    let frame = document.querySelector("#frame");
+    frame.style.padding = "0px 20px 40px 20px";
+
+    let videoFrame1 = document.querySelector("#video_frame1");
+    videoFrame1.style.display = "none";
+
+    let videoFrame2 = document.querySelector("#video_frame2");
+    videoFrame2.style.visibility = "visible";    
 }
 
