@@ -21,7 +21,7 @@ body{
 #text{
     margin: 35px 0px 20px 0px;
     text-align: center;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 #inside_frame{
@@ -38,7 +38,7 @@ body{
 
 #myInput{
     height: 30px;
-    width: 150px;
+    width: 170px;
     border-radius: 15px;
     padding-left: 10px;
 }
@@ -75,4 +75,3 @@ h4{
     width: 130px;
     border-radius: 14px;
 }
-
