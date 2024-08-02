@@ -1,19 +1,29 @@
 let btn = document.querySelector("button");
 
 btn.addEventListener("click", ()=>{
-    let word = document.querySelector("#myInput");
-    let thala = word.value; 
-    if (thala.length == 7) {
-        yesThala();
+    let input = document.querySelector("#myInput");
+    let thala = input.value;
+
+    let sum = 0;
+    for (let num of thala) {
+        sum = sum + Number(num);
+    }
+
+    if (thala.length == 7 || sum == 7 || ['thala','dhoni','mahi'].includes(thala)) {
+        thalaReview();
+        setTimeout(yesThala, 1200);
     }
     else{
-        noThala();
+        thalaReview();
+        setTimeout(noThala, 1200);
     }
 })
 
 function yesThala(){
-    let inframe = document.querySelector("#inside_frame");
-    inframe.style.display = "none";
+    let inframe = document.querySelectorAll("#inside_frame, #review");
+    inframe.forEach(e =>{
+        e.style.display = "none";
+    });
 
     let frame = document.querySelector("#frame");
     frame.style.padding = "0px 20px 40px 20px";
@@ -24,9 +34,19 @@ function yesThala(){
     document.querySelector("#yesThala").play();
 }
 
-function noThala(){
+function thalaReview() {
     let inframe = document.querySelector("#inside_frame");
     inframe.style.display = "none";
+
+    let review = document.querySelector("#review")
+    review.style.visibility = "visible"
+}
+
+function noThala(){
+    let inframe = document.querySelectorAll("#inside_frame, #review");
+    inframe.forEach(e =>{
+        e.style.display = "none";
+    });
 
     let frame = document.querySelector("#frame");
     frame.style.padding = "0px 20px 40px 20px";
