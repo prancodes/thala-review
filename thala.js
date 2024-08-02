@@ -8,8 +8,10 @@ btn.addEventListener("click", ()=>{
     for (let num of thala) {
         sum = sum + Number(num);
     }
+    let arr = ['Thala','Dhoni','Mahi'];
 
-    if (thala.length == 7 || sum == 7 || ['thala','dhoni','mahi'].includes(thala)) {
+    if (thala.length == 7 || sum == 7 || arr.includes(thala)
+        ) {
         thalaReview();
         setTimeout(yesThala, 1200);
     }
@@ -29,9 +31,11 @@ function yesThala(){
     frame.style.padding = "0px 20px 40px 20px";
 
     let videoFrame1 = document.querySelector("#video_frame1");
-    videoFrame1.style.visibility = "visible";
+    videoFrame1.style.display = "block";
 
     document.querySelector("#yesThala").play();
+
+    document.querySelector("#footer").style.bottom = "-30%"
 }
 
 function thalaReview() {
@@ -55,6 +59,8 @@ function noThala(){
     videoFrame1.style.display = "none";
 
     let videoFrame2 = document.querySelector("#video_frame2");
-    videoFrame2.style.visibility = "visible";    
+    videoFrame2.style.display = "block";  
+    
+        document.querySelector("#footer").style.bottom = "-30%"
 }
 
