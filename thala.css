@@ -75,7 +75,6 @@ button{
     border-radius: 20px;
     text-align: center;
     padding: 10px 20px 20px 20px;
-    /* visibility: hidden; */
     display: none;
 }
 
@@ -105,12 +104,12 @@ button{
 
 #footer{
     position: absolute;
-    bottom: -30%;
+    bottom: -20%;
 }
 
 #footer h5{
     width: 100vw;
     text-align: center;
     background-color: rgb(255, 244, 202);
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
