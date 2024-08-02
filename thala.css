@@ -1,9 +1,23 @@
 body{
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     justify-content: center;
     margin-top: 0px;
     padding: 0px;
+}
+
+#outer_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#msdImage{
+    width: 350px;
+    position: relative;
+    top: -3%;
+    left: -18%;
 }
 
 #frame{
@@ -15,7 +29,7 @@ body{
     flex-direction: column;
     border-radius: 15px;
     padding: 0px 20px 0px 20px;
-    margin-top: 30px;
+    margin-top: -20px;
 }
 
 #text{
@@ -61,10 +75,22 @@ button{
     border-radius: 20px;
     text-align: center;
     padding: 10px 20px 20px 20px;
+    /* visibility: hidden; */
+    display: none;
+}
+
+#review{
+    height: 150px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
     visibility: hidden;
 }
 
-h4{
+#video_frame1 h4{
     margin: 12px 0px 10px 0px;
 }
 
@@ -78,11 +104,11 @@ h4{
 }
 
 #footer{
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: -30%;
 }
 
-h5{
+#footer h5{
     width: 100vw;
     text-align: center;
     background-color: rgb(255, 244, 202);
