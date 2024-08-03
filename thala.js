@@ -85,7 +85,7 @@ X.addEventListener("click",()=>{
 
 let insta = document.querySelector("#insta_tag");
 insta.addEventListener("click",()=>{
-    window.location.href = "#";
+    window.location.reload();
 });
 
 
