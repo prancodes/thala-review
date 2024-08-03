@@ -114,8 +114,8 @@ button:active{
 
 #footer{
     position: absolute;
-    bottom: -15%;
-    margin-bottom: 0%;
+    bottom: -18%;
+    margin-bottom: 2px;
 }
 
 #footer h5{
@@ -123,6 +123,7 @@ button:active{
     text-align: center;
     background-color: rgb(255, 244, 202);
     margin-bottom: 0%;
+    font-size: 12px;
 }
 
 #share_btn{
@@ -137,7 +138,7 @@ button:active{
 
 #share_btn img{
     height: 32px;
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 #share_btn img:hover{
