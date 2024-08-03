@@ -73,3 +73,22 @@ function noThala(){
     document.querySelector("#footer").style.bottom = "-20%"
 }
 
+let whatsapp = document.querySelector("#whatsapp_tag");
+whatsapp.addEventListener("click",()=>{
+    window.open('whatsapp://send?text=Check out this Website! : https://prancodes.github.io/thala-review/','data-action="share/whatsapp/share"');
+});
+
+let X = document.querySelector("#x_tag");
+X.addEventListener("click",()=>{
+    window.open('https://twitter.com/intent/tweet?text=Check out this Website! : https://prancodes.github.io/thala-review/','target="_blank"');
+});
+
+let insta = document.querySelector("#insta_tag");
+insta.addEventListener("click",()=>{
+    window.location.href = "#";
+});
+
+
+
+
+
