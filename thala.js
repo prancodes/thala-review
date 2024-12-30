@@ -2,15 +2,15 @@ let btn = document.querySelector("button");
 
 btn.addEventListener("click", ()=>{
     let input = document.querySelector("#myInput");
-    let thala = input.value;
+    let thala = input.value.replace(/\s/g, '');  // Remove all whitespaces
 
     let sum = 0;
     for (let num of thala) {
         sum = sum + Number(num);
     }
-    let arr = ['Thala','Dhoni','Mahi','777'];
+    let arr = ['thala','dhoni','mahi','777'];
 
-    if (thala.length == 7 || sum == 7 || arr.includes(thala)) {
+    if (thala.length == 7 || sum == 7 || arr.includes(thala.toLowerCase())) {
         thalaReview();
         setTimeout(()=>{
             yesThala(thala,sum)
@@ -69,26 +69,20 @@ function noThala(){
 
     let videoFrame2 = document.querySelector("#video_frame2");
     videoFrame2.style.display = "block";  
-    
-    document.querySelector("#footer").style.bottom = "-20%"
 }
 
 let whatsapp = document.querySelector("#whatsapp_tag");
 whatsapp.addEventListener("click",()=>{
-    window.open('whatsapp://send?text=Check out this Website! : https://prancodes.github.io/thala-review/','data-action="share/whatsapp/share"');
+    window.open("whatsapp://send?text=Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://prancodes.github.io/thala-review/ 🏏🎶",'data-action="share/whatsapp/share"');
 });
 
 let X = document.querySelector("#x_tag");
 X.addEventListener("click",()=>{
-    window.open('https://twitter.com/intent/tweet?text=Check out this Website! : https://prancodes.github.io/thala-review/','target="_blank"');
+    window.open("https://twitter.com/intent/tweet?text= Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://prancodes.github.io/thala-review/ 🏏🎶",'target="_blank"');
 });
 
-let insta = document.querySelector("#insta_tag");
-insta.addEventListener("click",()=>{
-    window.location.reload();
+let gitRepo = document.querySelector("#git_tag");
+gitRepo.addEventListener("click", () => {
+    window.location.href = "https://github.com/prancodes/thala-review";
 });
-
-
-
-
 
