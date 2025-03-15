@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Allow: /
 
 Sitemap: https://thala7cool.vercel.app/sitemap.xml
