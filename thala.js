@@ -107,7 +107,7 @@ let whatsapp = document.querySelector("#whatsapp_tag");
 if (whatsapp) {
   whatsapp.addEventListener("click", () => {
     window.open(
-      "whatsapp://send?text=Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://prancodes.github.io/thala-review/ 🏏🎶",
+      "whatsapp://send?text=Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://thala7cool.vercel.app/ 🏏🎶",
       'data-action="share/whatsapp/share"'
     );
   });
@@ -119,7 +119,7 @@ let X = document.querySelector("#x_tag");
 if (X) {
   X.addEventListener("click", () => {
     window.open(
-      "https://twitter.com/intent/tweet?text= Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://prancodes.github.io/thala-review/ 🏏🎶",
+      "https://twitter.com/intent/tweet?text= Thala fans, this one's for you! 🔥%0AWhat's so special about 7 ? ✨ %0A😎 Check it out here: https://thala7cool.vercel.app/ 🏏🎶",
       'target="_blank"'
     );
   });
